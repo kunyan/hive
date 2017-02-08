@@ -8,6 +8,9 @@ npm install
 yarn
 
 
-# Run
-npm start
+# Command
+npm run start
+npm run build
+npm run test
+npm run lint
 ```
