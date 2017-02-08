@@ -11,5 +11,7 @@ COPY . /usr/src/app
 
 RUN yarn install --pure-lockfile
 
+ENV BABEL_DISABLE_CACHE=1
+
 EXPOSE 8080
 CMD [ "npm", "start" ]
